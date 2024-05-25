@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(241, 158, 186);
+    text-align: center;
+}
+
+.container {
+    max-width:600px;
+    max-height:270px;
+    width: auto;
+    height: auto;
+    border: 8px solid white;
+}
+
+.pedido{
+    margin: 50px;
+
+}
+
+.botaoSim, .botaoNao {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: blanchedalmond;
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content {
+    position: relative;
+    display: inline-block;
+}
+
+.botoes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
